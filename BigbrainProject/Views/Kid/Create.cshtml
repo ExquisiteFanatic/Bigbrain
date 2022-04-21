@@ -4,8 +4,11 @@
 }
 
 <form asp-action="Create" method="post">
+    <label asp-for=Firstname>Vārds</label>
     <input asp-for=Firstname />
+    <label asp-for=Lastname>Uzvārds</label>
     <input asp-for=Lastname />
+    <label asp-for=Birthday>Dzimšanas Datums</label>
     <input asp-for=Birthday />
    <button class="btn-primary btn" type="submit">Izveidot</button>
 </form>
