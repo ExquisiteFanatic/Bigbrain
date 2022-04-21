@@ -1,0 +1,11 @@
+﻿@model KidModel
+@{
+    ViewData["Title"] = "Pievienot bērnu";
+}
+
+<form asp-action="Create" method="post">
+    <input asp-for=Firstname />
+    <input asp-for=Lastname />
+    <input asp-for=Birthday />
+   <button class="btn-primary btn" type="submit">Izveidot</button>
+</form>
